@@ -1,0 +1,2652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMHPHCI' 2022</title>
+    <!-- Google APTs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/anim.css">
+    <link rel="stylesheet" href="../style/pic.css">
+    <link rel="stylesheet" href="../style/preloader.css">
+
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        $(window).load(function () {
+            $(".showbox").delay(3000).fadeOut("slow");
+            $(".loader").delay(3000).fadeOut("slow");
+        })
+    </script>
+</head>
+
+<body>
+    <hr id="stop" style="border: none;">
+    <!-- Preloader -->
+    <div class="showbox">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container d-flex">
+            <!-- Logo -->
+            <div class="logo" id="logo">
+                <a href=""><img src="../logo.png" alt="logo"></a>
+                <a href="">
+                    <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                </a>
+            </div>
+
+            <!-- Menu  -->
+            <div class="menu-container hide">
+                <div class="container no-slider">
+                    <!-- Menu Close Btn -->
+                    <i class="fa fa-times menu-o" id="close-btn"></i>
+
+                    <ul class="">
+                        <li class="link"><a href="../index.html">home</a></li>
+                        <li class="link"><a href="../index.html#contents">about</a></li>
+                        <li class="link active"><a href="#">committees</a></li>
+                        <li class="link"><a href="../index.html#important-date">program</a></li>
+                        <li class="link"><a href="../index.html#talk">Speakers</a></li>
+                        <li class="dropdown">
+                            <a class="d-flex">Contact <i class="fa fa-angle-down"></i></a>
+                            <div class="d-menu box-shadow">
+                                <ul>
+                                    <li><a href="contactus.html">Contact Us</a></li>
+                                    <li><a href="htru.html">How to Reach Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a>downloads <i class="fa fa-angle-down"></i></a>
+                            <div class="d-menu box-shadow">
+                                <ul>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="" class="neon-btn">registrations</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Menu Open Btn -->
+            <i class="fa fa-bars ore menu-bar menu-o" id="open-btn"></i>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="committee">
+        <div class="container">
+            <h1 class="article-heading">committees</h1>
+            <hr class="bg-ore underline">
+
+            <div class="ground box-shadow">
+
+                <div class="accordion">
+                    <ul class="accordion_headers">
+                        <!-- Editable -->
+                        <li class="active-accordion">Program</li>
+                        <li class="">Advisory</li>
+                        <li class="">Organizing</li>
+                        <li class="">Technical</li>
+                        <li class="">Workshop</li>
+                        <li class="">Volunteer</li>
+                        <li class="">Sports</li>
+                        <li class="">Working</li>
+                        <li class="">Web</li>
+                        <li class="">Marketing</li>
+                    </ul>
+
+                    <!-- !IMPORTANT NOTE -->
+                    <!-- 
+                        *accordion_headers and accordion_contents should be at their [Index] with respect to each other.
+                     -->
+                    <!--                  
+                    example:   
+                        <ul class="accordion_headers">
+                            <li class="active-accordion">Program</li>
+                            <li class="">Advisory</li>
+                        </ul>
+
+                        <div class="accordion_contents">
+                            <div class="list active-accordion">
+                                <h2 class="sub-heading">Program Committee</h2>
+                            </div>
+                            <div class="list">
+                                <h2 class="sub-heading">Advisory Committee</h2>
+                            </div>
+                        </div>
+                     -->
+
+
+                    <div class="accordion_contents">
+                        <!-- Editable -->
+
+                        <!-- Program Committee -->
+                        <div class="list active-accordion">
+                            <h2 class="sub-heading">Program Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Advisory Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Advisory Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Organizing Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Organizing Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Technical Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Technical Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Workshop Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Workshop Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Volunteer Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Volunteer Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Sports Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Sports Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Working Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Working Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Web Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Web Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Marketing Committee -->
+                        <div class="list">
+                            <h2 class="sub-heading">Marketing Committee</h2>
+                            <ul>
+                                <li>
+                                    <div class="pic pic1"></div>
+                                    <p><b>Dr. Kalman J. Kaplan</b>
+                                        <br>
+                                        Professor, University of
+                                        Illinois, Chicago, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic2"></div>
+                                    <p><b>Dr. Ashok Saha</b>
+                                        <br>
+                                        Professor, Jagannath University, Dhaka, Bangladesh
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic3"></div>
+                                    <p><b>Dinie Ratri Desiningrum</b>
+                                        <br>
+                                        Faculty of Psychology,
+                                        Diponegoro University, Indonesia
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic4"></div>
+                                    <p><b>Dr. Sandeep Kumar</b>
+                                        <br>
+                                        Professor, Banaras
+                                        Hindu University (BHU), India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic5"></div>
+                                    <p><b>Dr SPK Jena</b>
+                                        <br>
+                                        Professor, Delhi, University, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic6"></div>
+                                    <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                        <br>
+                                        Associate Professor, IIT Kharagpur, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic7"></div>
+                                    <p><b>Dr Dinakaran</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic8"></div>
+                                    <p><b>Dr Suvashisa Rana</b>
+                                        <br>
+                                        Assistant Professor, School of Medical Sciences, University
+                                        of
+                                        Hyderabad, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic9"></div>
+                                    <p><b>Dr Sandhyarani Mohanty</b>
+                                        <br>
+                                        Research Officer, Institute of Mental Health and
+                                        Hospital, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic10"></div>
+                                    <p><b>Dr Cesar Merino Soto</b>
+                                        <br>
+                                        Professor, University of
+                                        San Martin, Lima, Peru
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic11"></div>
+                                    <p><b>Dr. Patryk Stecz</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Lodz, Poland
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic12"></div>
+                                    <p><b>Dr. Narendra Thaguna</b>
+                                        <br>
+                                        Mental Health
+                                        Professional, Nepal
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic13"></div>
+                                    <p><b>Dr V K Singh</b>
+                                        <br>
+                                        Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                        India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic14"></div>
+                                    <p><b>Dr. Rasmita Das Swain</b>
+                                        <br>
+                                        Professor, NIEPA, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic15"></div>
+                                    <p><b>Dr Nilesh Thakre</b>
+                                        <br>
+                                        Associate Professor, SNDT
+                                        Women's University, Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic16"></div>
+                                    <p><b>Dr. Pooja Garg</b>
+                                        <br>
+                                        Associate Professor, IIT,
+                                        Roorkee, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic17"></div>
+                                    <p><b>Dr Abhay Kumar</b>
+                                        <br>
+                                        Assistant Professor,
+                                        ANMCH, Gaya, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic18"></div>
+                                    <p><b>Dr Sumatra Mishra</b>
+                                        <br>
+                                        Clinical Psychologist, IMHA, Agra, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic19"></div>
+                                    <p><b>Dr Sandhya Verma</b>
+                                        <br>
+                                        Clinical Psychologist, DIPR,
+                                        Delhi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic20"></div>
+                                    <p><b>Dr. Reuven Gal</b>
+                                        <br>
+                                        Senior Research Fellow, Samuel Neaman Institute, Israel
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic21"></div>
+                                    <p><b>Dr. Katarina Millova</b>
+                                        <br>
+                                        Associate. Professor,
+                                        University of Ostrava, Czech Republic
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic22"></div>
+                                    <p><b>Dr Conrad Zygmont</b>
+                                        <br>
+                                        University Lecturer,
+                                        Helderberg College of Higher Education, Africa
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic23"></div>
+                                    <p><b>Dr. Pooja Purang</b>
+                                        <br>
+                                        Professor, IIT Mumbai, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic24"></div>
+                                    <p><b>Prof S K Sia</b>
+                                        <br>
+                                        Professor, Central University of Pondicherry, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic25"></div>
+                                    <p><b>Dr. Nishant Goyal</b>
+                                        <br>
+                                        Associate Professor ,
+                                        CIP, Ranchi
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic26"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic27"></div>
+                                    <p><b>Dr. Ajoy Goyal</b>
+                                        <br>
+                                        Assistant Professor,
+                                        NIMHANS, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic28"></div>
+                                    <p><b>Dr. Bam Bahadur Sinha</b>
+                                        <br>
+                                        Assistant Professor,
+                                        IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic29"></div>
+                                    <p><b>Dr. Shalini Mahato</b>
+                                        <br>
+                                        Faculty, IIIT Ranchi, India
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="pic pic30"></div>
+                                    <p><b>Ms.Hrit Kaushik</b>
+                                        <br>
+                                        Consultant, NAMAH Foundation,
+                                        India
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Floating Squares -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- Footer  -->
+    <footer>
+        <div class="container">
+            <section class="sec_1">
+                <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                <small class="mt-2">
+                    Indian Institute of Information Technology Ranchi, Jharkhand, India
+                    in collaborations with
+                    National Association of Mental Health and Allied Health (NAMAH), Foundation.
+                </small>
+
+                <p id="venue"><b><b>VENUE</b> -</b>&nbsp;Auditorium, IIIT Ranchi, Smart
+                    City
+                    JUPMI Building, 3rd Floor, Plant Plaza Road, Dhurwa, Ranchi, Jharkhand – 834004, India</p>
+                <div class="social-handles">
+                    <p>
+                        <b>Email : </b> <a href="">&nbsp;gmhphci2022@iiitr.ac.in</a>
+                    </p>
+
+                    <ul class="">
+                        <li><a href="" class="fa fa-twitter"></a></li>
+                        <i class=""></i>
+                        <li><a href="" class="fa fa fa-instagram"></a></li>
+                        <li><a href="" class="fa fa fa-youtube"></a></li>
+                        <li><a href="" class="fa fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec_2">
+                <div>
+                    <header class="ore"><b>Usefull Links</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="../index.html#contents">About Us</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Call for pappers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <header class="ore"><b>Team</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="#">Committee</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Web Team</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+    </footer>
+    <div class="extra-footer">
+        <div class="container">
+            <p>
+                &copy; GMHPHCI All Rights Reserved
+            </p>
+            <small>Developed By <a href="" class="ore">Web Team, GMHPHCI</a></small>
+
+            <button id="backtotop"><i class="text-light fa fa-chevron-up"></i></button>
+        </div>
+    </div>
+
+    <!-- social-handles -->
+    <div class="social_handles">
+        <ul class="">
+            <li><a href="https://wa.me/+91-7004778565" class="fa fa-whatsapp"></a></li>
+            <li><a href="mailto:shalinimahato@iiitranchi.ac.in,bahadurbam@iiitranchi.ac.in"
+                    class="fa fa fa-envelope"></a></li>
+        </ul>
+    </div>
+
+    <!-- scripts -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

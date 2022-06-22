@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMHPHCI' 2022</title>
+    <!-- Google APTs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/anim.css">
+    <link rel="stylesheet" href="../style/pic.css">
+    <link rel="stylesheet" href="../style/preloader.css">
+
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        $(window).load(function () {
+            $(".showbox").delay(3000).fadeOut("slow");
+            $(".loader").delay(3000).fadeOut("slow");
+        })
+    </script>
+</head>
+
+<body>
+    <hr id="stop" style="border: none;">
+    <!-- Preloader -->
+    <div class="showbox">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container d-flex">
+            <!-- Logo -->
+            <div class="logo" id="logo">
+                <a href=""><img src="../logo.png" alt="logo"></a>
+                <a href="">
+                    <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                </a>
+            </div>
+
+            <!-- Menu  -->
+            <div class="menu-container hide">
+                <div class="container no-slider">
+                    <!-- Menu Close Btn -->
+                    <i class="fa fa-times menu-o" id="close-btn"></i>
+
+                    <ul class="">
+                        <li class="link"><a href="../index.html">home</a></li>
+                        <li class="link"><a href="../index.html#contents">about</a></li>
+                        <li class="link"><a href="committee.html">committees</a></li>
+                        <li class="link"><a href="../index.html#important-date">program</a></li>
+                        <li class="link"><a href="../index.html#talk">Speakers</a></li>
+                        <li class="dropdown active">
+                            <a class="d-flex">How&nbsp;to&nbsp;Reach&nbsp;Us <i class="fa fa-angle-down"></i></a>
+                            <div class="d-menu box-shadow">
+                                <ul>
+                                    <li><a href="contactus.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a>downloads <i class="fa fa-angle-down"></i></a>
+                            <div class="d-menu box-shadow">
+                                <ul>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                    <li><a href="">How to Reach Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="" class="neon-btn">registrations</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Menu Open Btn -->
+            <i class="fa fa-bars ore menu-bar menu-o" id="open-btn"></i>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="htru">
+        <div class="container">
+            <main>
+                <div class="main box-shadow">
+                    <h1 class="article-heading">HOW TO REACH us</h1>
+                    <hr class="bg-ore underline">
+                    <p>Ranchi, capital of Jharkhand is well-connected with a number of major cities of India via
+                        Air,
+                        Trains and Roads. Daily trains, buses and flights are available from major cities in India.
+                    </p>
+
+                    <!-- Map -->
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.0000571918968!2d85.37176651440936!3d23.315756711158798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e5177fc0c16f%3A0xbfbb9b9d4f69f6f5!2sIndian%20Institute%20of%20Information%20Technology%20Ranchi!5e0!3m2!1sen!2sin!4v1655784981264!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- By Air, By Train, By Road  -->
+                <div class="ground">
+                    <div class="box-shadow bus">
+                        <h2 class="sub-heading"><i class="fa fa-bus"></i>&nbsp;<b>Ranchi by Road</b><i
+                                class="fa fa-angle-down"></i></h2>
+
+                        <p>Lorem ipsum dolor sit, Voluptatibus veniam quaerat
+                            accusamus eligendi voluptates, molestiae error sapiente assumenda nesciunt iure
+                            obcaecati\
+                            delectus amet reiciendis! Aliquid harum voluptates eos quia explicabo.
+                            At assumenda eum quos delectus ut, reprehenderit mollitia ea? Optio, natus? Neque ipsum
+                            facilis veritatis dicta! Doloribus voluptate voluptatum doloremque quibusdam nesciunt
+                            animi,
+                            est illo debitis aspernatur eum at
+                            delectus amet reiciendis! Aliquid harum voluptates eos quia explicabo.
+                            At assumenda eum quos delectus ut, reprehenderit mollitia ea? Optio, natus? Neque ipsum
+                            facilis veritatis dicta! Doloribus voluptate voluptatum doloremque quibusdam nesciunt
+                            animi,
+                            est illo debitis aspernatur eum at
+                            delectus amet reiciendis! Aliquid harum voluptates eos quia explicabo.
+                            At assumenda eum quos delectus ut, reprehenderit mollitia ea? Optio, natus? Neque ipsum
+                            facilis veritatis dicta! Doloribus voluptate voluptatum doloremque quibusdam nesciunt
+                            animi,
+                            est illo debitis aspernatur eum at corporis!
+                        </p>
+                    </div>
+                    <div class="box-shadow train">
+                        <h2 class="sub-heading"><i class="fa fa-train"></i>&nbsp;<b>Ranchi by Train</b><i
+                                class="fa fa-angle-down"></i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam vero delectus minima.
+                            Sequi, illum voluptate suscipit, quae culpa repellat eum nulla recusandae mollitia minus
+                            error distinctio cumque architecto ullam!
+                            Placeat vero laboriosam hic est. Soluta doloribus consequatur, explicabo aut eveniet
+                            beatae
+                            voluptates ipsam maxime fugit culpa sint ea voluptatum cum! Architecto sit ratione
+                            recusandae corrupti, voluptatum laboriosam commodi ipsum.</p>
+                    </div>
+                    <div class="box-shadow plane">
+                        <h2 class="sub-heading"><i class="fa fa-plane"></i>&nbsp;<b>Ranchi by Air</b><i
+                                class="fa fa-angle-down"></i></h2>
+                        <p>Ranchi’s domestic airport – Birsa Munda Airport (Code: IXR) is situated approximately 7
+                            km south of the institute. It is well connected with other metro cities like Kolkata,
+                            Delhi, Mumbai, Bangalore, Pune and Chennai.
+                            <br><br>
+                            There are eight direct daily flights to Ranchi from Mumbai, New Delhi and Kolkata at
+                            convenient timings.
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Background Floating Squares -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- Footer  -->
+    <footer>
+        <div class="container">
+            <section class="sec_1">
+                <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                <small class="mt-2">
+                    Indian Institute of Information Technology Ranchi, Jharkhand, India
+                    in collaborations with
+                    National Association of Mental Health and Allied Health (NAMAH), Foundation.
+                </small>
+
+                <p id="venue"><b><b>VENUE</b> -</b>&nbsp;Auditorium, IIIT Ranchi, Smart
+                    City
+                    JUPMI Building, 3rd Floor, Plant Plaza Road, Dhurwa, Ranchi, Jharkhand – 834004, India</p>
+                <div class="social-handles">
+                    <p>
+                        <b>Email : </b> <a href="">&nbsp;gmhphci2022@iiitr.ac.in</a>
+                    </p>
+
+                    <ul class="">
+                        <li><a href="" class="fa fa-twitter"></a></li>
+                        <i class=""></i>
+                        <li><a href="" class="fa fa fa-instagram"></a></li>
+                        <li><a href="" class="fa fa fa-youtube"></a></li>
+                        <li><a href="" class="fa fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec_2">
+                <div>
+                    <header class="ore"><b>Usefull Links</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="../index.html#contents">About Us</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Call for pappers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <header class="ore"><b>Team</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="committee.html">Committee</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Web Team</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+    </footer>
+    <div class="extra-footer">
+        <div class="container">
+            <p>
+                &copy; GMHPHCI All Rights Reserved
+            </p>
+            <small>Developed By <a href="" class="ore">Web Team, GMHPHCI</a></small>
+
+            <button id="backtotop"><i class="text-light fa fa-chevron-up"></i></button>
+        </div>
+    </div>
+
+    <!-- social-handles -->
+    <div class="social_handles">
+        <ul class="">
+            <li><a href="https://wa.me/+91-7004778565" class="fa fa-whatsapp"></a></li>
+            <li><a href="mailto:shalinimahato@iiitranchi.ac.in,bahadurbam@iiitranchi.ac.in"
+                    class="fa fa fa-envelope"></a></li>
+        </ul>
+    </div>
+
+    <!-- scripts -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
